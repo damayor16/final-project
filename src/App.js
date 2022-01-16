@@ -9,6 +9,7 @@ import Pastry from './components/Pastry/Pastry';
 import Vegan from './components/Vegan/Vegan';
 import RecipeDetails from './components/RecipeDetails/RecipeDetails';
 import Search from './components/Search/Search';
+import Desert from './components/Desert/Desert';
 
 function App() {
   return <div className="App">    
@@ -22,6 +23,7 @@ function App() {
       <Route path="/vegan" element={<Vegan />} />
       <Route path="/recipe/:recipeId" element={<RecipeDetails />} />      
       <Route path="/search" element={<Search />} />
+      <Route path="/desert" element={<Desert />} />
     </Routes>
     </BrowserRouter>
     <Footer />

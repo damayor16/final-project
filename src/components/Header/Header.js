@@ -53,7 +53,11 @@ function Header() {
                     Vegan
                   </Link>
                 </li>
-                
+                <li>
+                  <Link className="dropdown-item" to="/desert">
+                    Desert
+                  </Link>
+                </li>                
                 <li>
                   <Link className="dropdown-item" to="/pastry">
                     Pastry
