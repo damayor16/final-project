@@ -1,6 +1,6 @@
 import "./AboutUs.css"
 function AboutUs () {
-    return <div>About Us</div>
+    return <h1 class="display-1">Meat Recipes</h1>
 }
 
 export default AboutUs

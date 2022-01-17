@@ -1,5 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import './key.js';
+import Axios from "axios";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Homepage from './components/Homepage/Homepage';
@@ -12,7 +14,12 @@ import Search from './components/Search/Search';
 import Desert from './components/Desert/Desert';
 
 function App() {
-  return <div className="App">    
+const YOUR_APP_ID = "20353751"
+const YOUR_APP_KEY = "f5f2e537340fe084164aeb3093d27944"
+
+  var url = `https://api.edamam.com/search?q=chicken&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&from=0&to=3&calories=591-722&health=alcohol-free`
+
+    return <div className="App">    
     <BrowserRouter>
     <Header />
     <Routes>

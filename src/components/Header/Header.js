@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
 
-function Header() {
+function Header() {  
   return (
+    //<nav class="navbar navbar-light bg-primary">
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
+      <div className="container">
         <a className="navbar-brand" href="#">
-          Navbar
+        <img src="./lo" alt="" width="30" height="24"></img>
         </a>
         <button
           className="navbar-toggler"
@@ -83,6 +84,7 @@ function Header() {
         </div>
       </div>
     </nav>
+    //</nav>
   );
 }
 
