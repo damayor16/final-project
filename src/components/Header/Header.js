@@ -6,7 +6,7 @@ function Header() {
    
     <nav className=" navbar_container">
       <div className="navbar_container-logo">
-        <a href="/">KeuRecipe</a>
+        <a href="/">MayoRecipes</a>
       </div>
        <div className="navbar_container-menu">
          <ul>
