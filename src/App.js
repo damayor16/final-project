@@ -12,12 +12,13 @@ import Vegan from './components/Vegan/Vegan';
 import RecipeDetails from './components/RecipeDetails/RecipeDetails';
 import Search from './components/Search/Search';
 import Desert from './components/Desert/Desert';
+import Contact from './components/ContactUs/ContactUs';
 
 function App() {
-const YOUR_APP_ID = "20353751"
-const YOUR_APP_KEY = "f5f2e537340fe084164aeb3093d27944"
+//const YOUR_APP_ID = "20353751"
+//const YOUR_APP_KEY = "f5f2e537340fe084164aeb3093d27944"
 
-  var url = `https://api.edamam.com/search?q=chicken&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&from=0&to=3&calories=591-722&health=alcohol-free`
+  //var url = `https://api.edamam.com/search?q=chicken&app_id=${YOUR_APP_ID}&app_key=${YOUR_APP_KEY}&from=0&to=3&calories=591-722&health=alcohol-free`
 
     return <div className="App">    
     <BrowserRouter>
@@ -31,6 +32,7 @@ const YOUR_APP_KEY = "f5f2e537340fe084164aeb3093d27944"
       <Route path="/recipe/:recipeId" element={<RecipeDetails />} />      
       <Route path="/search" element={<Search />} />
       <Route path="/desert" element={<Desert />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
     </BrowserRouter>
     <Footer />
