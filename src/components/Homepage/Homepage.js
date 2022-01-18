@@ -1,7 +1,8 @@
 import "./Homepage.css"
-function Homepage() {
+
+function Homepage() {    
     return <section>
-        <div className="slider-section">
+            <div className="slider-section">
             <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimagesvc.meredithcorp.io%2Fv3%2Fmm%2Fimage%3Furl%3Dhttps%253A%252F%252Fstatic.onecms.io%252Fwp-content%252Fuploads%252Fsites%252F9%252F2021%252F07%252F13%252FUltimate-Veggie-Burgers-FT-Recipe-0821.jpg&q=85" />
             <div className="slider-section-text">
                 <h1>Homemade delicious burger</h1>
@@ -36,19 +37,7 @@ function Homepage() {
 
             </div>
         </div>
-
-        <a className="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a className="next" onclick="plusSlides(1)">&#10095;</a>
-        <br></br>
-
-        <div style="text-align:center">
-            <span className="dot" onclick="currentSlide(1)"></span>
-            <span className="dot" onclick="currentSlide(2)"></span>
-            <span className="dot" onclick="currentSlide(3)"></span>
-        </div>
-
-
-    </section>
-}
+        </section> 
+}       
 
 export default Homepage
