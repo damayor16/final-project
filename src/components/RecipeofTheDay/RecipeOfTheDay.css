@@ -1,0 +1,94 @@
+.RecipeOfTheDay{
+position: relative;
+}
+.RecipeOfTheDay_fourRow_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding-top:10px;
+    padding: 30px 30px 60px 30px;
+    margin-bottom: 30px;
+
+
+}
+.RecipeOfTheDay_fourRow_container a{
+    text-decoration: none;
+    color:black
+ }
+ 
+ .RecipeOfTheDay_fourRows{
+  
+    height: 400px;
+    width: 300px;
+    
+   
+ }
+ .RecipeOfTheDay_fourRow img{
+    width:100%;
+    height:100%;
+    object-position: center;
+    object-fit: cover;
+ }
+
+ .RecipeOfTheDay_fourRow img:hover{
+  
+ }
+
+    
+ .RecipeOfTheDay_fourRow_blog_title{
+     margin-top: 3rem;
+     position: relative;
+ }
+ .RecipeOfTheDay_fourRow_blog_title span{
+   
+   padding-bottom: 2rem;
+  
+
+}
+.short-seperator{
+    width: 80px;
+    height: 3px;
+    background: #6ebe3b;
+    margin: 0 auto;
+    margin-top:1.4rem;
+    /* position:absolute;
+    top:0; */
+}
+
+
+.RecipeOfTheDay_bloggers{
+margin-top: 1.2rem;
+}
+.RecipeOfTheDay_bloggers_user,.RecipeOfTheDay_bloggers_text{
+    padding-right: 12px;
+    margin-right: 5px;
+color: #5e676b;
+line-height: 2;
+transition: color .9s ease-in;
+}
+.RecipeOfTheDay_bloggers_text:hover{
+    color:green;
+}
+.RecipeOfTheDay_bloggers p{
+margin-top: 20px;
+font-family: 'Karla', sans-serif;
+font-size: 14px;
+    }
+.RecipeOfTheDay_bloggers_Btn{
+outline: none!important;
+    border: 1px solid #000000;;
+    color: #211e1e;
+    text-align: center;
+    display: inline-block;
+    padding: 0 15px;
+    height: 30px;
+    text-align: center;
+    line-height: 38x;
+    line-height: 28px;
+    text-transform: uppercase;
+    transition: all .9s ease-in;
+}
+.RecipeOfTheDay_bloggers_Btn:hover{
+    background-color: black;
+    color:white
+}
