@@ -18,7 +18,7 @@ export default function RecipeOfTheDay() {
                     <img src='https://static.toiimg.com/thumb/53110049.cms?width=1200&height=900'/>
                     <div className='RecipeOfTheDay_fourRow_blog_title'>
                     <span className='RecipeOfTheDay_fourRow_border'>
-                        Pizza with stuffed cheese dough
+                        Mushroom and Ham Pizza with stuffed cheese dough
                     </span>
                     <div className='short-seperator'></div>
                     <div className='RecipeOfTheDay_bloggers'>
