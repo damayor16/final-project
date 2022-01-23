@@ -1,0 +1,19 @@
+{
+    "hotRecipes": [{
+        "id": 1,
+        "title": "Hamburger",
+        "description": "A hamburger (or burger for short) is a food, typically considered a sandwich, consisting of one or more cooked patties usually ground meat, typically beef placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "image": "https://www.gardengourmet.co.uk/sites/default/files/recipes/aeead5804e79ff6fb98b2039619c5230_200828_MEDIAMONKS_GG_Spicytarian.jpg"
+    },{
+        "id": 2,
+        "title": "Sarmale",
+        "description": "Sarmale, commonly marketed as stuffed grape leaves, is a type of dolma—a stuffed dish of the cuisines of the former Ottoman Empire from the Middle East to Southeastern Europe—comprising fermented cabbage leaves, patencia dock, collard, grapevine, kale or chard leaves rolled around a filling minced meat.",
+        "image": "https://media.istockphoto.com/photos/cabbage-rolls-with-beef-rice-and-vegetables-on-the-plate-stuffed-picture-id1226930374?s=612x612"  
+    },{
+        "id": 3,
+        "title": "Hamburger",
+        "description": "A hamburger (or burger for short) is a food, typically considered a sandwich, consisting of one or more cooked patties usually ground meat, typically beef placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
+        "image": "https://www.gardengourmet.co.uk/sites/default/files/recipes/aeead5804e79ff6fb98b2039619c5230_200828_MEDIAMONKS_GG_Spicytarian.jpg"   
+    }]
+
+}
