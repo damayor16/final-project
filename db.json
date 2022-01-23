@@ -14,6 +14,23 @@
         "title": "Hamburger",
         "description": "A hamburger (or burger for short) is a food, typically considered a sandwich, consisting of one or more cooked patties usually ground meat, typically beef placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
         "image": "https://www.gardengourmet.co.uk/sites/default/files/recipes/aeead5804e79ff6fb98b2039619c5230_200828_MEDIAMONKS_GG_Spicytarian.jpg"   
+    }],
+    "recipes":[{
+        "id": 1,
+        "title": "mamaliga",
+        "description": "ceva ceva",
+        "image": "https://www.gardengourmet.co.uk/sites/default/files/recipes/aeead5804e79ff6fb98b2039619c5230_200828_MEDIAMONKS_GG_Spicytarian.jpg",
+        "ingredients": ["malai", "apa", "sare"],
+        "calories": 300,
+        "quantity": 600
+    },{
+    "id": 2,
+    "title": "mamaliga",
+    "description": "ceva ceva",
+    "image": "https://www.gardengourmet.co.uk/sites/default/files/recipes/aeead5804e79ff6fb98b2039619c5230_200828_MEDIAMONKS_GG_Spicytarian.jpg",
+    "ingredients": ["malai", "apa", "sare"],
+    "calories": 300,
+    "quantity": 600
     }]
 
 }

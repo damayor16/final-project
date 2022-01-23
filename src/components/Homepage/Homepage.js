@@ -29,8 +29,7 @@ const slideImages = [
               <span>Cheesecake</span>
             </div>
           </div>
-        </Slide>
-        <HotRecipe/>        
+        </Slide>              
         <RecipeOfTheDay/>
       </div>
       

@@ -12,6 +12,7 @@ import RecipeDetails from './components/RecipeDetails/RecipeDetails';
 import Search from './components/Search/Search';
 import Desert from './components/Desert/Desert';
 import Contact from './components/ContactUs/ContactUs';
+import Recipe from './components/Recipe/Recipe';
 
 function App() {
 //const YOUR_APP_ID = "20353751"
@@ -32,6 +33,7 @@ function App() {
       <Route path="/search" element={<Search />} />
       <Route path="/desert" element={<Desert />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/recipe" element={<Recipe />} />
     </Routes>
     </BrowserRouter>
     <Footer />
