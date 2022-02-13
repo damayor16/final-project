@@ -1,16 +1,26 @@
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useSearchParams } from "react-router-dom"
 import HotRecipe from "../HotRecipe/HotRecipe"
 import "./Recipe.css"
 
 function Recipe() {
     const [recipes, setRecipes] = useState([])
+    const [searchParams] = useSearchParams()
     useEffect(() => {
-        fetch("http://localhost:5001/recipes").then((response) => response.json()).then((recipes) => {
-            console.log(recipes)
-            setRecipes(recipes)
-        })
-    }, [])
+        const q = searchParams.get("q")
+        if (q) {
+            fetch(`http://localhost:5001/recipes?q=${q}`).then((response) => response.json()).then((recipes) => {
+                console.log(recipes)
+                setRecipes(recipes)
+            })
+        } else {
+            fetch("http://localhost:5001/recipes").then((response) => response.json()).then((recipes) => {
+                console.log(recipes)
+                setRecipes(recipes)
+            })
+        }
+
+    }, [searchParams])
     return (
         <div>
             <HotRecipe />

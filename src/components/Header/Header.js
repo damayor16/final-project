@@ -1,8 +1,9 @@
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useSearchParams } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
   const { pathname } = useLocation()
+  const [searchParams, setSearchParams] = useSearchParams()
   return (
 
     <nav className=" navbar_container">
@@ -35,7 +36,7 @@ function Header() {
         </ul>
       </div>
       {pathname === "/recipe" && <div className=" navabar_container-search">
-        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search for new recipe" title="Type in a category" />
+        <input defaultValue={searchParams.get("q")} type="search" id="mySearch" onChange={(e) => setSearchParams(`?q=${e.target.value}`)} placeholder="Search for new recipe" title="Type in a category" />
       </div>}
     </nav>
 
