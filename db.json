@@ -14,38 +14,38 @@
         },
         {
             "id": 3,
-            "title": "Hamburger",
-            "description": "A hamburger (or burger for short) is a food, typically considered a sandwich, consisting of one or more cooked patties usually ground meat, typically beef placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.",
-            "image": "https://www.gardengourmet.co.uk/sites/default/files/recipes/aeead5804e79ff6fb98b2039619c5230_200828_MEDIAMONKS_GG_Spicytarian.jpg"
+            "title": "Tripe Soup (Ciorbă de burtă)",
+            "description": "The Tripe Soup is a traditional Romanian soup made with beef tripe, garlic, sour cream, eggs and vinegar. Ciorbă de burtă is often thickened with flour, high fat sour cream/creme fraiche and egg yolks, colored with fried grated carrots or peppers, and seasoned with vinegar, high fat sour cream (smântână) and garlic dip (crushed garlic mixed with oil), called mujdei",
+            "image": "https://retete-culinare-cu-dana-valery.ro/cdn/recipes/ciorba-de-burta.jpg"
         }
     ],
     "recipes": [
         {
             "id": 1,
-            "title": "mamaliga",
-            "description": "ceva ceva",
-            "image": "https://www.gardengourmet.co.uk/sites/default/files/recipes/aeead5804e79ff6fb98b2039619c5230_200828_MEDIAMONKS_GG_Spicytarian.jpg",
+            "title": "Mămăligă",
+            "description": "a Romanian dish of cornmeal mush often garnished with cheese or sour cream. mămăligă is cooked by boiling water, salt and cornmeal in a special-shaped cast iron pot called ceaun or tuci. When cooked peasant-style and used as a bread substitute, mămăligă is supposed to be much thicker than the regular Italian polenta to the point that it can be cut in slices, like bread. When cooked for other purposes, mămăligă can be much softer, sometimes almost to the consistency of porridge. Because mămăligă sticks to metal surfaces, a piece of sewing thread is used to cut it into slices instead of a knife; it can then be eaten by holding it with the hand, just like bread.",
+            "image": "https://speisekarte.menu/storage/media/dishes_main/2289164/Mamaliga.jpg",
             "ingredients": [
-                "malai",
-                "apa",
-                "sare"
+                "Cheese",
+                "Butter",
+                "Cornmeal",
+                "Salt"
             ],
-            "calories": 300,
+            "calories": 146,
             "quantity": 600
         },
         {
             "id": 2,
-            "title": "mamaliga",
-            "description": "ceva ceva",
-            "image": "https://www.gardengourmet.co.uk/sites/default/files/recipes/aeead5804e79ff6fb98b2039619c5230_200828_MEDIAMONKS_GG_Spicytarian.jpg",
+            "title": "Spaghetti Bolognese",
+            "description": "Spaghetti bolognese is a pasta dish that is popular outside Italy. It consists of spaghetti served with a sauce made from tomatoes, minced beef, garlic, wine and herbs; sometimes minced beef can be replaced by other minced meats. In this sense the sauce is actually more similar to Neapolitan ragù from the south of Italy than the northern Bolognese version of ragù. The dish is often served with grated Parmesan on top, but local cheeses, such as grated cheddar are also often used. It may be served with a larger proportion of sauce to pasta than is common in genuine Italian spaghetti dishes. The sauce may be laid on top of the pasta (rather than being mixed in, in the Italian manner) or even served separately from it, leaving diners to mix it in themselves.",
+            "image": "https://static.fanpage.it/wp-content/uploads/sites/22/2021/06/spaghetti-bolognese-1200x900.jpg",
             "ingredients": [
                 "malai",
                 "apa",
                 "sare"
             ],
-            "calories": 300,
+            "calories": 146,
             "quantity": 600
         }
     ]
 }
-//json-server --port 5001 db.json

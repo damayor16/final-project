@@ -35,10 +35,10 @@ function Recipe() {
                                 <img src={recipe.image} />
 
                             </div>
-                            <p>{recipe.description}</p>
+                            {/* <p>{recipe.description}</p>
                             <p>ingredients: {recipe.ingredients.join(", ")}</p>
                             <p>calories: {recipe.calories} kcl</p>
-                            <p>quantity: {recipe.quantity} grm</p>
+                            <p>quantity: {recipe.quantity} grm</p> */}
                         </div>
                     </Link>)}
 
